@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+<p>Search user</p>
+<div>
+    <form action="/user" method="post">
+        <label for="">Id</label>
+        <input type="text" name="Id" id="Id">
+        <div>
+        <button type="submit">submit</button>
+        </div>
+    </form>
+</div>
+<div>
+    <button><a href="/">Home</a></button>
+</div>
+{% endblock %}
